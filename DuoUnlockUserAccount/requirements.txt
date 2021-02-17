@@ -1,4 +1,0 @@
-cortexutils
-requests
-datetime
-duo_client

@@ -6,8 +6,11 @@
   "license": "AGPL-V3",
   "description": "Unlock User Account in Duo Security via AdminAPI (The user must complete secondary authentication)",
   "dataTypeList": ["thehive:case_artifact"],
-  "command": "DuoUnlockUserAccount/duoUnlockUserAccount.py",
-  "baseConfig": "Duo_AdminAPI-Account",
+  "command": "DuoSecurity/duoUserAccount.py",
+  "baseConfig": "DuoSecurity",
+  "config": {
+    "service": "unlock"
+  },
   "configurationItems": [
     {
       "name": "API_hostname",
