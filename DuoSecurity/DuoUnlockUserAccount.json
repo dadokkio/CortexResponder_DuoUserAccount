@@ -14,12 +14,12 @@
   "configurationItems": [
     {
       "name": "API_hostname",
-      "description": "Duo Admin API hostname, https://api-XXXXXXXX.duosecurity.com",
+      "description": "Duo Admin API hostname, api-XXXXXXXX.duosecurity.com",
       "type": "string",
       "multi": false,
       "required": true
     },
-   {
+    {
       "name": "Integration_Key",
       "description": "Integration Key",
       "type": "string",
